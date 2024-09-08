@@ -3,61 +3,55 @@
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "./ui/card";
 import Link from "next/link";
 
-export default function Cards() {
+export default function MyCards() {
   return (
     <div className="grid gap-4 md:grid-cols-3">
       
       {/* Itinerary Card */}
-      <Card>
+      <Card className = "bg-white shadow-lg rounded-lg p-6">
         <CardHeader>
-          <CardTitle>Itinerary</CardTitle>
-          <CardDescription>Download your travel itinerary for the Umrah trip.</CardDescription>
+          <CardTitle className = "text-gray-800">Itinerary</CardTitle>
+          <CardDescription className = "text-gray-600">Download your travel itinerary for the Umrah trip.</CardDescription>
         </CardHeader>
         <CardContent>
-          <p>Plan your journey with detailed information on the itinerary.</p>
+          <p className = "text-gray-700">Plan your journey with detailed information on the itinerary.</p>
         </CardContent>
         <CardFooter>
-          <Link href="/downloads/itinerary.pdf" download>
-            <a className="bg-blue-600 text-white p-2 rounded-lg hover:bg-blue-700">
-              Download PDF
-            </a>
-          </Link>
+          <a href="/downloads/itenarary.pdf" download="itenarary.pdf" className="bg-blue-600 text-white p-2 rounded-lg hover:bg-blue-700">
+            Download PDF
+          </a>
         </CardFooter>
       </Card>
 
       {/* Dua Book Card */}
-      <Card>
+      <Card className = "bg-white shadow-lg rounded-lg p-6">
         <CardHeader>
-          <CardTitle>Dua Book</CardTitle>
-          <CardDescription>Download the Dua book to recite during your Umrah journey.</CardDescription>
+          <CardTitle className = "text-gray-800">Dua Book</CardTitle>
+          <CardDescription className = "text-gray-600">Download the Dua book to recite during your Umrah journey.</CardDescription>
         </CardHeader>
         <CardContent>
-          <p>Find essential duas and supplications for every step of your Umrah.</p>
+          <p className = "text-gray-700">Find essential duas and supplications for every step of your Umrah.</p>
         </CardContent>
         <CardFooter>
-          <Link href="/downloads/dua-book.pdf" download>
-            <a className="bg-blue-600 text-white p-2 rounded-lg hover:bg-blue-700">
-              Download PDF
-            </a>
-          </Link>
+          <a href="/downloads/Duas.pdf" download="Duas.pdf" className="bg-blue-600 text-white p-2 rounded-lg hover:bg-blue-700">
+            Download PDF
+          </a>
         </CardFooter>
       </Card>
 
       {/* Umrah Guide Card */}
-      <Card>
+      <Card className = "bg-white shadow-lg rounded-lg p-6">
         <CardHeader>
-          <CardTitle>Umrah Guide</CardTitle>
-          <CardDescription>A comprehensive guide for performing Umrah.</CardDescription>
+          <CardTitle className = "text-gray-800">Umrah Guide</CardTitle>
+          <CardDescription className = "text-gray-600">A comprehensive guide for performing Umrah.</CardDescription>
         </CardHeader>
         <CardContent>
-          <p>Step-by-step instructions and information to help you perform Umrah smoothly.</p>
+          <p className = "text-gray-700">Step-by-step instructions and information to help you perform Umrah smoothly.</p>
         </CardContent>
         <CardFooter>
-          <Link href="/downloads/umrah-guide.pdf" download>
-            <a className="bg-blue-600 text-white p-2 rounded-lg hover:bg-blue-700">
-              Download PDF
-            </a>
-          </Link>
+          <a href="/downloads/Guide.pdf" download="Guide.pdf" className="bg-blue-600 text-white p-2 rounded-lg hover:bg-blue-700">
+            Download PDF
+          </a>
         </CardFooter>
       </Card>
 

@@ -15,18 +15,18 @@ export default function Footer() {
 
         {/* Middle Section: Links */}
         <div className="flex space-x-6">
-          <Link href="/downloads/itinerary.pdf" download>
-            <a className="hover:text-white">Itinerary</a>
+          <Link href="/downloads/itinerary.pdf" download className="hover:text-white">
+            Itinerary
           </Link>
-          <Link href="/downloads/dua-book.pdf" download>
-            <a className="hover:text-white">Dua Book</a>
+          <Link href="/downloads/dua-book.pdf" download className="hover:text-white">
+            Dua Book
           </Link>
-          <Link href="/downloads/umrah-guide.pdf" download>
-            <a className="hover:text-white">Umrah Guide</a>
+          <Link href="/downloads/umrah-guide.pdf" download className="hover:text-white">
+            Umrah Guide
           </Link>
-          <Link href="/contact">
-            <a className="hover:text-white">Contact Us</a>
-          </Link>
+
+          {/* Static "Contact Us" Text Without Link */}
+          <div className="text-white">Contact Us</div>
         </div>
 
         {/* Right Section: Copyright */}
