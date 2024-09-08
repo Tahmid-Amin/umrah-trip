@@ -17,7 +17,7 @@ export default function MyCards() {
           <p className = "text-gray-700">Plan your journey with detailed information on the itinerary.</p>
         </CardContent>
         <CardFooter>
-          <a href="/downloads/itenarary.pdf" download="itenarary.pdf" className="bg-blue-600 text-white p-2 rounded-lg hover:bg-blue-700">
+          <a href="/downloads/Umrah-2024-itenarary.pdf" download="Umrah-2024-itenarary.pdf" className="bg-blue-600 text-white p-2 rounded-lg hover:bg-blue-700">
             Download PDF
           </a>
         </CardFooter>
@@ -33,7 +33,7 @@ export default function MyCards() {
           <p className = "text-gray-700">Find essential duas and supplications for every step of your Umrah.</p>
         </CardContent>
         <CardFooter>
-          <a href="/downloads/Duas.pdf" download="Duas.pdf" className="bg-blue-600 text-white p-2 rounded-lg hover:bg-blue-700">
+          <a href="/downloads/Dua-Booklet.pdf" download="Dua-Booklet.pdf" className="bg-blue-600 text-white p-2 rounded-lg hover:bg-blue-700">
             Download PDF
           </a>
         </CardFooter>
@@ -49,7 +49,7 @@ export default function MyCards() {
           <p className = "text-gray-700">Step-by-step instructions and information to help you perform Umrah smoothly.</p>
         </CardContent>
         <CardFooter>
-          <a href="/downloads/Guide.pdf" download="Guide.pdf" className="bg-blue-600 text-white p-2 rounded-lg hover:bg-blue-700">
+          <a href="/downloads/The-Umrah-Guide.pdf" download="The-Umrah-Guide.pdf" className="bg-blue-600 text-white p-2 rounded-lg hover:bg-blue-700">
             Download PDF
           </a>
         </CardFooter>

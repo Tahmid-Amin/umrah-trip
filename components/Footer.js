@@ -15,13 +15,13 @@ export default function Footer() {
 
         {/* Middle Section: Links */}
         <div className="flex space-x-6">
-          <Link href="/downloads/itinerary.pdf" download className="hover:text-white">
+          <Link href="/downloads/Umrah-2024-itinerary.pdf" download className="hover:text-white">
             Itinerary
           </Link>
-          <Link href="/downloads/dua-book.pdf" download className="hover:text-white">
+          <Link href="/downloads/Dua-Booklet.pdf" download className="hover:text-white">
             Dua Book
           </Link>
-          <Link href="/downloads/umrah-guide.pdf" download className="hover:text-white">
+          <Link href="/downloads/The-Umrah-Guide.pdf" download className="hover:text-white">
             Umrah Guide
           </Link>
 
